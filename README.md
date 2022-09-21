@@ -27,14 +27,14 @@ Geration of simulated and synthetic datasets.
 **Parameters**:
 - Need to be set:
   - directory of the raw data from Hardt et al. (2016)
-  - directory for the created synthetic dataset
-  - filename of the created dataset
-  - set_size: absolute size of the dataset (number of samples)
-  - group_size_ratio: ratio of race in the dataset (black to white samples)
-  - black_label_ratio: ratio of balck samples with true and false labels.
-  - order_of_magnitude: number of samples with are drawn by step
+  - path (incl. filname) for the created synthetic dataset
+  - set_size: absolute size of the final dataset 
+   - order_of_magnitude: number of samples with are drawn from the FICO-distribution in one step
+  - group_size_ratio: ratio of Race in the dataset (black to white samples)
+  - black_label_ratio: ratio of Black samples with true and false labels.
+  - round_num_scores: indicator of how the feature "Scores" is rounded
   - shuffle_seed: controls the shuffle of the dataset
-  - round_num_scores: indicator of how the scores are rounded
+ 
   
 **Key details**:
 - The original dataset according to Hardt et al. (2016) has the group_size_ratio: [0.12;0.88] and black_label_ratio: [0.66;0.34] (white_label_ratio: [0.24,0.76]). 
