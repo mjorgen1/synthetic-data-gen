@@ -34,12 +34,16 @@ Our simulated, synthetic datasets are based on Hardt et al.'s 2016 dataset.
   - ```shuffle_seed```: controls the shuffle of the dataset
  
   
-**Key details**:
+**Key Details**:
 - The original dataset according to Hardt et al. (2016) has a ```group_size_ratio```: [0.12;0.88], ```black_label_ratio```: [0.66;0.34], and ```white_label_ratio```: [0.24,0.76]. By changing those parameters we interfere with the demographic and label distributions and create a synthetic dataset.
 - The ```data_creation_utils.py``` is the pyfile that includes all of the helpful functions for the data collection
-- How to run:
-  - Way 2: Set params in ```data_creation.yaml``` or create your own ```~.yaml``` file and run ```python create_data.py -config data_creation``` from any cmd line (substitute the ```-config``` parameter with your ```~.yaml``` file).
 
+**How to Run:**
+  - Set params in ```data_creation.yaml``` or create your own ```~.yaml``` file
+  - Run the below from command line (substitute the ```-config``` parameter with your ```~.yaml``` file if need be): 
+```
+python create_data.py -config data_creation
+```
 
 <!-- CONTACT -->
 ## Contact
