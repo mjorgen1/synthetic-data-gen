@@ -6,8 +6,8 @@ order_of_magnitude: 100000 # number of samples, sampled in one batch for origina
 group_size_ratio: # ratio of sensitive attributes in the created set
   - 0.12 #black
   - 0.88 #white
-black_label_ratio: # ratio of the labels (poitive and negative) of the Black group in the dataset
+black_label_ratio: # ratio of the labels (positive and negative) of the Black group in the dataset
   - 0.34 #0
   - 0.66 #1
 round_num_scores: 2 # indicator for rounding
-shuffle_seed: 42 # seed for dhuffeling of dataset
+shuffle_seed: 42 # seed for shuffling of dataset

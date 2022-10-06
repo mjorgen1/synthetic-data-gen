@@ -282,7 +282,7 @@ def sample(group_size_ratio, order_of_magnitude, shuffle_seed,scores_arr, pi_A, 
     repay_indices = []
     # Create a random num and then have that decide given a prob if the person gets a loan or not
     # (e.g. If 80% prob, then calculate a random num, then if that is below they will get loan, if above, then they don't)
-    # creating binary labels ourt of probabilistic ones
+    # creating binary labels out of probabilistic ones
     for index, prob in enumerate(probabilities):
         rand_num = random.randint(0,1000)/10
         if rand_num > prob:  # default
