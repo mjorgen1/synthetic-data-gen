@@ -53,11 +53,3 @@ python create_data.py -config data_creation
 <!-- License -->
 ## License
 Lydia's [repository](https://github.com/lydiatliu/delayedimpact) is licensed under the BSD 3-Clause "New" or "Revised" [License](https://github.com/lydiatliu/delayedimpact/blob/master/LICENSE).
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgments
-Thank you to Lydia for helping me get started using her code!
-
-<!-- License -->
-## License
-Lydia's [repository](https://github.com/lydiatliu/delayedimpact) is licensed under the BSD 3-Clause "New" or "Revised" [License](https://github.com/lydiatliu/delayedimpact/blob/master/LICENSE).
